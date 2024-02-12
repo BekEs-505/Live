@@ -1,0 +1,1841 @@
+﻿/*
+
+html[lang="ar"]
+
+*/
+
+@font-face {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+    src: url('../../fonts/HelveticaNeueLTArabic-Roman.eot');
+    src: url('../../fonts/HelveticaNeueLTArabic-Roman-1.eot') format('embedded-opentype'),
+        url('../../fonts/HelveticaNeueLTArabic-Roman.woff2') format('woff2'),
+        url('../../fonts/HelveticaNeueLTArabic-Roman.woff') format('woff'),
+        url('../../fonts/HelveticaNeueLTArabic-Roman.ttf') format('truetype'),
+        url('../../fonts/HelveticaNeueLTArabic-Roman.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html[dir="rtl"] input[type="password"]::-webkit-input-placeholder {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+html[dir="rtl"] input[type="password"]:-moz-placeholder {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+html[dir="rtl"] input[type="password"]::-moz-placeholder {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+html[dir="rtl"] input[type="password"]:-ms-input-placeholder {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+
+html[lang="ar"] body *:not(.fas),
+html[lang="ar"] body *:not(.fa),
+html[lang="ar"] body *:not(.fab),
+html[lang="ar"] body *:not(i),
+html[lang="ar"] body {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+html[lang="ar"] .ui-datepicker .ui-datepicker-prev span.fas,
+html[lang="ar"] .ui-datepicker .ui-datepicker-next span.fas {
+    font-family: "Font Awesome 5 Free" !important;
+    -webkit-transform: scale(-1);
+    transform: scale(-1);
+}
+
+html[lang="ar"] h1,
+html[lang="ar"] h2,
+html[lang="ar"] h3,
+html[lang="ar"] h4,
+html[lang="ar"] h5,
+html[lang="ar"] h6 {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+html[lang="ar"] body .fa,
+html[lang="ar"] body .far,
+html[lang="ar"] body .fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+html[lang="ar"] body .fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+html[lang="ar"] .navbar>ul>li>a {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+html[lang="ar"] .title {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman' !important;
+}
+
+html[lang="ar"] .title_box .title {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman' !important;
+}
+
+html[lang="ar"] .item .details h3 {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+html[lang="ar"] .navbar>ul>li.has-dropdown>a {
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+html[lang="ar"] .navbar>ul>li.has-dropdown>a::after {
+    left: 0;
+    right: unset;
+}
+
+html[lang="ar"] .seasons-category-listing>ul li a,
+html[lang="ar"] .category-listing>ul li a {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+    padding-bottom: 0;
+    line-height: 140%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: normal;
+}
+
+html[lang="ar"] .simple-user-block h2 {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+html[lang="ar"] .btn,
+html[lang="ar"] button,
+html[lang="ar"] .simple-user-btn {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+html[lang="ar"] .add-fav>.btn,
+html[lang="ar"] .HeroSlider-info .action-button .btn {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+html[lang="ar"] .HeroSlider .item .HeroSlider-info>* {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+html[lang="ar"] .close-add-bnt {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+html[lang="ar"] .header .right-menu>ul>li {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+/* html[lang="ar"] .search-icon .dropdown-menu {
+    left: 0px;
+    right: auto;
+} */
+
+html[lang="ar"] .dropdown-searchmenu .voice-search {
+    border-left: 1px solid #707070;
+    border-right: 0;
+}
+
+html[lang="ar"] .dropdown-searchmenu .btn-search {
+    right: auto;
+    left: 13px;
+}
+
+html[lang="ar"] .search-icon .search-click::before,
+html[lang="ar"] .user-icon .user-click::before {
+    right: 0;
+}
+
+html[lang="ar"] .HeroSlider-info .action-button .btn {
+    margin-left: 0;
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+html[lang="ar"] .hero-section .HeroSlider-info .action-button .btn {
+    margin-right: 0;
+    margin-left: 25px;
+    padding-right: 50px;
+    padding-left: 15px;
+}
+
+html[lang="ar"] .hero-section .HeroSlider-info .action-button .btn:last-child {
+    margin-left: 0;
+}
+
+html[lang="ar"] .single-program-player .HeroSlider-info .action-button a.btn.play, 
+html[lang="ar"] .single-program-player .HeroSlider-info .action-button a.btn.add-to-fav, 
+html[lang="ar"] .single-program-player .HeroSlider-info .action-button a.btn{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html[lang="ar"] .hero-section .HeroSlider-info .action-button .btn::before {
+    left: unset;
+    right: 15px;
+}
+
+
+html[lang="ar"] .HeroSlider-info .action-button .btn:last-child {
+    margin-left: 10px;
+}
+
+html[lang="ar"] .HeroSlider-info .action-button .btn>svg {
+    margin-right: 0;
+    margin-left: 12px;
+}
+
+html[lang="ar"] .single-program-player .HeroSlider-info .action-button .btn span {
+    left: 15px;
+    right: unset;
+}
+
+html[lang="ar"] .action-button .btn.btn_calender span img {
+    margin: 0;
+}
+
+html[lang="ar"] .HeroSlider-info .action-button .btn img {
+    margin-right: 0;
+    margin-left: 12px;
+}
+
+html[lang="ar"] .HeroSlider-info .seasons-category>span.seasons,
+html[lang="ar"] .HeroSlider-info .seasons-category>strong.seasons {
+    padding-right: 0;
+    margin-right: 0;
+    border-right: 0;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 2px solid #fff;
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+html[lang="ar"] .HeroSlider-info .seasons-category>span,
+html[lang="ar"] .HeroSlider-info .seasons-category>strong {
+    margin-right: 0;
+    padding-left: 10px;
+    margin-left: 10px;
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+html[lang="ar"] .action-button>.icon>.close,
+html[lang="ar"] .action-button>.icon>a {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+html[lang="ar"] .HeroSlider .item .HeroSlider-info>p {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+html[lang="ar"] .five-slider .owl-dots {
+    right: unset;
+    left: 0;
+}
+
+html[lang="ar"] .HeroSlider .owl-nav.disabled,
+html[lang="ar"] .HeroSlider .owl-nav {
+    /* flex-direction: row-reverse; */
+}
+
+html[lang="ar"] .owl-carousel .owl-nav,
+html[lang="ar"] .catchup-slider .owl-nav,
+html[lang="ar"] .bbcplayer-slider .owl-nav {
+    /* flex-direction: row-reverse; */
+}
+
+html[lang="ar"] .owl-carousel .owl-nav button,
+html[lang="ar"] .catchup-slider .owl-nav button,
+html[lang="ar"] .bbcplayer-slider .owl-nav button {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+html[lang="ar"] .catch-up-episodes .show-list .episodes-name h3 {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+    font-weight: 500;
+}
+
+/* html[lang="ar"]  .dropdown-menu {
+    right: auto;
+    left: -50px;
+} */
+
+html[lang="ar"] .item .details .seasons-category span.seasons,
+html[lang="ar"] .item .details .seasons-category strong.seasons {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: 0;
+    margin-left: 12px;
+    padding-left: 12px;
+    border-left: 2px solid #fff;
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+html[lang="ar"] .item .details .seasons-category span.seasons:empty,
+html[lang="ar"] .item .details .seasons-category strong.seasons:empty {
+    display: none;
+}
+
+html[lang="ar"] .item .details .seasons-category span,
+html[lang="ar"] .item .details .seasons-category strong {
+    margin-right: 0;
+    margin-left: 13px;
+    overflow: visible;
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+html[lang="ar"] .item .details .seasons-category span:last-child,
+html[lang="ar"] .item .details .seasons-category strong:last-child {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+html[lang="ar"] .item .details .action-div a {
+    padding-left: 0;
+    padding-right: 37px;
+    margin-right: 0;
+    margin-left: 9px;
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+}
+
+html[lang="ar"] .item .details .action-div a:last-child {
+    margin-left: 0;
+}
+
+html[lang="ar"] .item .details .action-div a>span {
+    left: auto;
+    right: 0;
+}
+
+html[lang="ar"] .item .details .action-div a>span.play-icon {
+    /* transform: rotateY(180deg); */
+}
+
+html[lang="ar"] .category-listing>ul .owl-nav {
+    /* flex-direction: row-reverse; */
+    right: 0;
+    left: 0;
+}
+
+html[lang="ar"] .seasons-category-listing>ul,
+html[lang="ar"] .category-listing>ul {
+    padding: 5px 5px 5px 5px;
+}
+
+html[lang="ar"] .progress-bar .running-bar {
+    top: 0;
+    right: 0;
+}
+
+html[lang="ar"] .progress-bar .running-bar::before {
+    right: auto;
+    left: 0;
+}
+
+html[lang="ar"] .podcast-player .podcast-action {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+html[lang="ar"] .cast-and-crew-sec .slider {
+    margin-right: 0;
+    margin-left: -5%;
+}
+
+html[lang="ar"] .ep_duration_wrap {
+    margin-right: unset;
+    margin-left: 10px;
+}
+
+html[lang="ar"] .podcast-player-desc p a {
+    left: unset;
+    right: 0;
+}
+
+
+
+
+/*html[lang="ar"] .add-fav > .btn.add-to-fav:before,
+html[lang="ar"] .add-to-fav:before {
+    margin-right: 0;
+    margin-left: 12px;
+}*/
+
+html[lang="ar"] li.change-lang a {
+    font-family: 'HelveticaNeue' !important;
+}
+
+html[lang="ar"] .drop-down .selected a span {
+    padding: 6px 30px 6px 70px;
+}
+html[lang="ar"] .show_bottom_row .drop-down .selected a span {
+	padding: 6px 10px 6px 50px;
+}
+
+html[lang="ar"] .catch-up-episodes .drop-down .selected a span {
+    padding: 10px 10px 10px 30px;
+}
+
+html[lang="ar"] .catch-up-episodes .drop-down:not(.channel) .options {
+    right: unset;
+    left: 0;
+}
+
+html[lang="ar"] .catch-up-episodes .drop-down .options {
+    right: 0;
+    left: unset;
+}
+
+html[lang="ar"] .catchup_live_link_wrap {
+    left: unset;
+    right: 0;
+}
+
+html[lang="ar"] .drop-down .selected .select-arrow {
+    right: auto;
+    left: 30px;
+}
+
+html[lang="ar"] .catch-up-episodes .drop-down .selected .select-arrow {
+    right: unset;
+    left: 10px;
+}
+
+html[lang="ar"] a.full-screen-icon {
+    right: auto;
+    left: 50px;
+}
+
+/* html[lang="ar"] .livestrim-main-video .video {
+    padding-left: 0;
+    padding-right: 270px;
+} */
+html[lang="ar"] .module-gallery .slider-wrapper {
+    left: unset;
+    right: 0;
+}
+
+html[lang="ar"] .slider-thumb.livestrim-main-nav-thumb {
+    left: auto;
+    right: 0;
+}
+
+html[lang="ar"] .full-screen-vodeo-show.hide-slider-wrapper .slider-thumb.livestrim-main-nav-thumb,
+html[lang="ar"] .full-screen-vodeo-show .slider-thumb.livestrim-main-nav-thumb {
+    right: -270px;
+}
+
+html[lang="ar"] .full-screen-vodeo-show:not(.hide-slider-wrapper).livestrim-main-video .video a.full-screen-icon {
+    left: auto;
+    right: 270px;
+}
+
+html[lang="ar"] .full-screen-vodeo-show:not(.hide-slider-wrapper) .slider-thumb.livestrim-main-nav-thumb {
+    left: auto;
+    right: 0;
+}
+
+html[lang="ar"] .livestrim-main-video.full-screen-vodeo-show .video {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+html[lang="ar"] .hide-slider-wrapper .transparent-overlay {
+    right: 0;
+    left: auto;
+}
+
+html[lang="ar"] .livestrim-main-video .video a.full-screen-icon {
+    right: 270px;
+    left: unset;
+}
+
+html[lang="ar"] .full-screen-vodeo-show.livestrim-main-video .video a.full-screen-icon {
+    right: 25px;
+    left: unset;
+}
+
+html [dir='rtl'] .slick-slide {
+    float: left;
+}
+
+html[lang="ar"] .play-episode-seasons-left {
+    padding-right: 0;
+    padding-left: 60px;
+}
+
+html[lang="ar"] .my-favorite-videos-sec .play-episode-seasons-left {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+html[lang="ar"] .play-episode-external-right {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+html[lang="ar"] .name-of-image-info {
+    padding-left: 0;
+    padding-right: 75px;
+}
+
+html[lang="ar"] .seasons-category-listing>ul li,
+html[lang="ar"] .category-listing>ul li {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+html[lang="ar"] .category-listing>ul li {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*html[lang="ar"] .seasons-category-listing > ul li:last-child,
+html[lang="ar"] .category-listing > ul li:last-child{
+    padding-left: 0;
+}*/
+
+html[lang="ar"] form input:not([type="hidden"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="range"]):not([type="submit"]):not([type="reset"]):not([type="image"]) {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+
+html[lang="ar"] .user-form-bake-btn a img {
+	margin: 0 0 0 10px;
+	-webkit-transform: rotate(180deg) translateY(-8px);
+	transform: rotate(180deg) translateY(-8px);
+}
+
+html[lang="ar"] .play-episode-box .video-share {
+    right: 60px;
+    left: auto;
+}
+
+html[lang="ar"] .episodes-name .date,
+html[lang="ar"] .episodes-name-with-date .date {
+    right: auto;
+    left: 0;
+}
+
+html[lang="ar"] .episodes-name h3 {
+    padding-right: 0;
+    padding-left: 90px;
+    line-height: 140%;
+}
+
+/*html[lang="ar"] .episodes-name .time {
+    border-right: 0;
+    border-left: 1px solid #fff;
+    padding-right: 0;
+    padding-left: 6px;
+}*/
+
+html[lang="ar"] .episodes-name .category {
+    border-right: 1px solid #fff;
+    border-left: 0;
+    padding-left: 0;
+    padding-right: 6px;
+    margin-left: 0;
+    margin-right: 4px;
+}
+
+html[lang="ar"] .play-episode-external-banner {
+    margin: 0 auto 0 0;
+}
+
+/*html[lang="ar"] .plus.share {
+    margin-right: 15px;
+}*/
+
+
+html[lang="ar"] .podcast-player-progress-audio-block {
+    padding-left: 0;
+    padding-right: 47px;
+}
+
+html[lang="ar"] a.audio-share-icon {
+    left: -37px;
+    right: auto;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+html[lang="ar"] .play-episode-box .action-button .icon {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+html[lang="ar"] .play-episode-box .video-share .plus.share {
+    margin-right: 20px;
+}
+
+html[lang="ar"] .address>div>div:first-child {
+    border-right-width: 0;
+    border-left-width: 1px;
+}
+
+html[lang="ar"] .address>div>div:last-child {
+    border-right-width: 1px;
+}
+
+html[lang="ar"] .plus.share.audio-share-icon {
+    right: auto;
+    left: -36px;
+    border-radius: 5px 0 0 5px;
+}
+
+html[lang="ar"] .plus.share.audio-share-icon img {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+
+html[lang="ar"] .intl-tel-input .selected-flag .iti-arrow {
+    right: auto;
+    left: 8px;
+}
+
+html[lang="ar"] .form-field.number #phone {
+    margin-left: 0;
+    margin-right: 15px;
+    text-align: right;
+}
+
+html[lang="ar"] .more-episode-wrap {
+    left: 0;
+    right: 20px;
+}
+
+html[lang="ar"] .cc-compliance {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+html[lang="ar"] .add-fav>.btn.add-to-fav:before,
+html[lang="ar"] .add-to-fav:before {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+html[lang="ar"] .HeroSlider .add-to-fav::before {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+html[lang="ar"] .play-episode-seasons-title .add-fav>.btn {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+html[lang="ar"] .play-episode-seasons-title h2 .video-share {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+html[lang="ar"] .play-episode-seasons-title h2 .plus.share {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+html[lang="ar"] a.embed-popup-close {
+    right: auto;
+    left: 10px;
+}
+html[lang="ar"] .announcements_popup a.embed-popup-close {
+	left: unset;
+	right: 15px;
+}
+html[lang="ar"] .announcements_popup .custom-checkbox label::before {
+	left: unset;
+	right: 0;
+	top: 2px;
+}
+html[lang="ar"] .announcement_info button.btn {
+	padding: 3px 36px 10px;
+}
+html[lang="ar"] .custom-checkbox label {
+	padding-right: 30px;
+	padding-left: unset;
+}
+html[lang="ar"] .load_more_popup a.embed_popup_close {
+    left: 30px;
+    right: unset;
+}
+
+html[lang="ar"] .HeroSlider .top10 .top-img .no-wrap {
+    margin-right: 0;
+    margin-left: 10px;
+}
+html[lang="ar"] .announcement_info .field.input-field label {
+    padding-right: 28px;
+    padding-left: unset;
+}
+
+
+
+html[lang="ar"] .year {
+    left: auto;
+    right: 122px;
+}
+
+html[lang="ar"] .program-info {
+    padding-left: 76px;
+    padding-right: 122px;
+}
+
+html[lang="ar"] .program-info .progress-hd>span {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+html[lang="ar"] .ramadan_comm_sec .owl-dots {
+    text-align: left;
+}
+
+html[lang="ar"] .page_count p {
+    float: left;
+}
+
+html[lang="ar"] .ramadan_comm_sec .action-button a {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+html[lang="ar"] .timing span {
+    margin-right: 0;
+    margin-left: 17px;
+}
+
+html[lang="ar"] .program-info .episodes p {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+html[lang="ar"] .program-info .episodes p span {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+html[lang="ar"] .action-button .btn_available a span {
+    margin-right: 5px;
+}
+
+html[lang="ar"] .HeroSlider-info .action-button .btn.btn_share img {
+    margin: 0 auto;
+}
+
+html[lang="ar"] .close-search {
+    margin-right: 20px;
+    margin-left: unset;
+}
+
+html[lang="ar"] .close-search img {
+    margin-right: 10px;
+    margin-left: unset;
+}
+
+html[lang="ar"] .dropdown-searchmenu .voice-search {
+    border-left: 1px solid #707070;
+    border-right: none;
+}
+
+
+
+html[lang="ar"] .see-more>span {
+    margin-right: 10px;
+    margin-left: unset;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+html[lang="ar"] .dropdown-menu {
+    right: unset;
+    left: -14px;
+}
+
+html[lang="ar"] body .main_appPage * {
+    font-weight: 500;
+}
+
+html[lang="ar"] .title_box .see-more {
+    left: 0;
+    right: 50%;
+}
+
+html[lang="ar"] section:not(.related-main-sec) > .container:hover .title_box .title a .see-more {
+	animation: ar_anim_slide 0.5s ease-in-out alternate forwards;
+}
+
+@keyframes ar_anim_slide {
+    0% {
+        opacity: 0;
+        right: 50%;
+        left: 0;
+    }
+
+    90% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 1;
+        left: auto;
+        right: 100%;
+    }
+}
+
+
+
+/* html[lang="ar"] .app_hero_sec .app_img_block {
+    max-width: 56.5%;
+    margin-left: -3%;
+    margin-right: unset;
+} */
+html[lang="ar"] .main_appPage::after {
+    -webkit-transform: translateY(-50%) rotateY(0deg);
+    transform: translateY(-50%) rotateY(0deg);
+}
+
+html[lang="ar"] .sign-in-account-options ul li a.fb_login {
+    flex-direction: row-reverse;
+}
+html[lang="ar"] .app_hero_sec .app_info_block {
+	right: unset;
+	left: 0;
+}
+html[lang="ar"] .app_hero_sec .app_img_block {
+	margin-right: unset;
+	margin-left: auto;
+}
+html[lang="ar"] .app_img_wrap {
+	transform: translateX(10.1%);
+	background: url("images/Tablet-Body_AR.png") no-repeat;
+	background-size: contain;
+}
+html[lang="ar"] .app_hero_sec::before {
+	transform: rotateY(0deg);
+}
+html[lang="ar"] .app_img_wrap::before {
+	right: 10.7%;
+	left: unset;
+    transform: unset;
+}
+html[lang="ar"] .app_img_wrap img {
+	right: 12.4%;
+	left: unset;
+}
+
+/* START MINI HERO SLIDER CODE */
+html[lang="ar"] .mini-hero-sec .HeroSlider .item .HeroSlider-img {
+    margin-right: auto;
+    margin-left: unset;
+}
+
+html[lang="ar"] .mini-hero-sec .HeroSlider-img.HeroSlider-mobile-img>a::before {
+    /* background-image: linear-gradient(to right,transparent,#1f2022); */
+    background-image: linear-gradient(to right, transparent 76%, #1f2022c2, #1f2022, #1f2022);
+}
+
+html[lang="ar"] .mini-hero-sec .HeroSlider .item .HeroSlider-img::before {
+    /* background-image: linear-gradient(to left,transparent 70%,#1f2022); */
+    background-image: linear-gradient(to left, transparent 76%, #1f2022c2, #1f2022, #1f2022);
+}
+
+/* END MINI HERO SLIDER CODE */
+
+/* START FULL PAGE VIDEO PAGE CODE */
+html[lang="ar"] .fullpage-video.play-episode-sec .play-episode-box-video-share {
+    left: unset;
+    right: 0;
+}
+
+html[lang="ar"] .playlist_wrap .popup_close {
+    left: 100px;
+    right: unset;
+}
+
+html[lang="ar"] .fullpage-video .add-fav>.btn::before {
+    margin: 0;
+}
+
+html[lang="ar"] .fullpage-video ul.social-share,
+.fullpage-video div.social-share {
+    right: 70px;
+    left: unset;
+}
+
+html[lang="ar"] .fullpage-video .share:hover ul.social-share,
+.fullpage-video .share:hover div.social-share {
+    right: 90px;
+    left: unset;
+}
+
+html[lang="ar"] .fullpage-video ul.social-share::before,
+.fullpage-video div.social-share::before {
+    right: -24px;
+    border-width: 15px 15px 15px;
+    border-color: transparent transparent transparent #bdbebe;
+    left: unset;
+}
+
+html[lang="ar"] .fullpage-video .channel-logo {
+    margin: 0 0 0 auto;
+}
+
+html[lang="ar"] .fullpage-video .vid_info {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+html[lang="ar"] .fullpage-video .call-back {
+    right: unset;
+    left: 15px;
+}
+
+html[lang="ar"] .video-info .video-duration {
+    padding-right: 15px;
+    padding-left: 55px;
+}
+
+html[lang="ar"] .fullpage-video .vid_info {
+    text-align: right;
+}
+
+html[lang="ar"] .fullpage-video .vid_series {
+    border-right: 2px solid var(--teal);
+    padding-right: 10px;
+    border-left: none;
+}
+
+/* END FULL PAGE VIDEO PAGE CODE */
+
+html[lang="ar"] .new_podcast_data .plus.share,
+html[lang="ar"] .ep_play_duration .plus.share {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+html[lang="ar"] .new_podcast_data .plus.share {
+    right: auto;
+    left: 15px;
+}
+
+html[lang="ar"] .new_podcast_data h2 {
+    padding-right: 0px;
+    padding-left: 40px;
+}
+
+html[lang="ar"] .hide-caption .HeroSlider-info .action-button>a.add-to-fav {
+    /* margin-left: 10px; */
+}
+
+html[lang="ar"] .HeroSlider-info .action-button a.btn.play.watch-now-btn {
+    margin-left: 25px;
+    margin-right: 0;
+}
+
+html[lang="ar"] .see-more>img {
+    margin-left: auto;
+    margin-right: 10px;
+    transform: rotateY(180deg);
+}
+
+html[lang="ar"] .HeroSlider .item .HeroSlider-info .action-button .volume,
+html[lang="ar"] .HeroSlider .item .HeroSlider-info .action-button .close {
+    right: unset;
+    left: 0;
+    margin: 0;
+}
+
+html[lang="ar"] .HeroSlider .item .HeroSlider-info .action-button .close {
+    right: unset;
+    left: 60px;
+}
+
+html[lang="ar"] .simple-user-sec select,
+html[lang="ar"] .Opinion-Matters .field select {
+    background-position: 30px 57%;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 60px;
+}
+
+html[lang="ar"] .Opinion-Matters .field select {
+    background-position: 30px 55%;
+    padding-right: 30px;
+}
+
+html[lang="ar"] .g-signin2 .abcRioButtonIcon {
+    margin-right: auto;
+    margin-left: unset;
+}
+
+html[lang="ar"] .g-signin2 .abcRioButtonContentWrapper,
+html[lang="ar"] .fb_login {
+    padding: 0 20px 0 10px;
+}
+
+html[lang="ar"] .g-signin2 .abcRioButtonContents {
+    text-align: right;
+}
+
+html[lang="ar"] .sign-in-account-options a.fb_login i {
+    margin-left: unset;
+    margin-right: auto;
+}
+
+html[lang="ar"] .ui-icon-circle-triangle-w {
+    background-position: -48px -192px;
+}
+html[lang="ar"] div.ui-datepicker .ui-datepicker-prev .ui-icon, 
+html[lang="ar"] div.ui-datepicker .ui-datepicker-next .ui-icon{
+    transform: rotate(0deg);
+}
+
+html[lang="ar"] .ui-icon-circle-triangle-e {
+    background-position: -80px -192px;
+}
+
+html[lang="ar"] .uploadFile {
+    margin-left: unset;
+    margin-right: auto;
+}
+
+html[lang="ar"] .uploadFile {
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+html[lang="ar"] .uploadFile .fa-paperclip {
+    right: 15px;
+    left: unset;
+}
+
+html[lang="ar"] .podcast_popup .embed_popup_close,
+html[lang="ar"] .primium_ac .embed_popup_close {
+    left: 30px;
+    right: unset;
+}
+
+html[lang="ar"] .hero-section .new_ep p::before {
+    right: 0;
+    left: unset;
+}
+
+html[lang="ar"] .img-wrap .no-wrap,
+html[lang="ar"] .img-wrappper .no-wrap {
+    left: 0;
+    right: unset;
+    border-radius: 0 0 5px 0;
+}
+
+html[lang="ar"] .apple-google.g_id_signin {
+    /* background-image: url(../images/login-google-enV2.png); */
+}
+
+
+/* START ADVANCED MOVIE SLIDER SEC */
+html[lang="ar"] .movies .img-wrappper>.top-img,
+html[lang="ar"] .img-wrap>.top-img {
+    left: unset;
+    right: 4px;
+}
+
+html[lang="ar"] .advanced_movie_slider .img-wrap>.mute-icon {
+    left: 30px;
+    right: unset;
+}
+
+html[lang="ar"] .advanced_movie_slider span.new-thumbnails-img-show-btn {
+    right: 15px;
+    left: unset;
+}
+
+html[lang="ar"] .advanced_movie_slider .item .details .action-div a {
+    padding-right: 40px;
+    padding-left: unset;
+    margin-right: unset;
+    margin-left: 10px;
+}
+
+html[lang="ar"] .advanced_movie_slider .details .action-div .add-to-fav::before {
+    margin-right: unset;
+    margin-left: 8px;
+}
+
+html[lang="ar"] .has_live_catch_up .show-list .episodes-name .time {
+    text-align: left;
+}
+
+/* END ADVANCED MOVIE SLIDER SEC */
+
+
+/* START LIVE CATCH-UP SEC CODE */
+html[lang="ar"] .has_live_catch_up .catch-up-episodes-select-box .drop-down {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+html[lang="ar"] .has_live_catch_up .catch-up-episodes .drop-down .selected a span {
+    padding: 6px 30px 6px 45px;
+}
+
+html[lang="ar"] .has_live_catch_up .catch-up-episodes .drop-down .selected .select-arrow {
+    right: unset;
+    left: 25px;
+}
+
+html[lang="ar"] .has_live_catch_up .show-list .episodes-name h3 {
+    text-align: right;
+}
+
+/* END LIVE CATCH-UP SEC CODE */
+
+
+/* START LANDING PAGE CODE */
+html[lang="ar"] .landing_header .navbar>ul>li {
+    padding: 20px 42px 20px 0;
+}
+
+html[lang="ar"] .landing_header .navbar>ul>li:first-child {
+    padding-right: 0;
+}
+
+html[lang="ar"] .landing_header .navbar>ul>li::before {
+    right: -21px;
+    left: unset;
+}
+
+html[lang="ar"] .footer_link> :not(:last-child) {
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+html[lang="ar"] .footer_link a[href*="tel"] {
+    direction: ltr;
+}
+
+/* END LANDING PAGE CODE */
+
+
+/* START NEW SHOW PAGE CHANGES */
+html[lang="ar"] .show_bottom_row .container::before {
+    right: 15px;
+    left: unset;
+}
+
+html[lang="ar"] .show_bottom_row .container>div::after {
+    left: 0;
+    right: unset;
+}
+
+html[lang="ar"] .show_bottom_row .category-listing-dropdown .drop-down .selected a i {
+    left: 15px;
+    right: unset;
+}
+
+html[lang="ar"] .play-episode-seasons-left .details .btn_share {
+    text-align: left;
+}
+
+html[lang="ar"] .play-episode-seasons-left .details .btn_share .social-share {
+    left: 40px;
+    right: unset;
+}
+
+html[lang="ar"] .play-episode-seasons-left .details .btn_share .social-share::before {
+    right: unset;
+    left: -27px;
+    transform: translateY(-50%) rotate(180deg);
+    transform-origin: center;
+}
+
+html[lang="ar"] .play-episode-seasons-left .episodes-name .time {
+    transform: translateY(-2px);
+}
+html[lang="ar"] .resume-watching .duration_play_wrap > * + * {
+	margin-right: 10px;
+	margin-left: unset;
+}
+html[lang="ar"] .resume-watching .btns_wrap .icon {
+	margin-left: 8px;
+	margin-right: unset;
+}
+
+/* END NEW SHOW PAGE CHANGES */
+
+
+
+
+/* 31 JAN 2023 DESING CHNAGES */
+/* html[lang="ar"] .sign-in-account-options #customBtn {
+    padding: 0 20px 0 10px;
+} */
+
+/* 31 JAN 2023 DESING CHNAGES */
+
+
+@media screen and (min-width: 1921px) {
+    html[lang="ar"] .hero-section .HeroSlider-info .action-button .btn {
+        padding-left: 0.8vw;
+        padding-right: 2.3vw;
+    }
+
+    html[lang="ar"] .hero-section .HeroSlider-info .action-button .btn::before {
+        left: 0.6vw;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    /* html[lang="ar"] .dropdown-menu {
+        right: auto;
+        left: -50px;
+    } */
+
+    /*  html[lang="ar"] .HeroSlider-info .seasons-category > span.seasons,
+        html[lang="ar"] .HeroSlider-info .seasons-category > strong.seasons {
+        padding-left: 10px;
+        margin-left: 10px;
+    } */
+
+    html[lang="ar"] .item .details .action-div a {
+        padding-right: 28px;
+        margin-left: 5px;
+    }
+
+    html[lang="ar"] .item .details .seasons-category span,
+    html[lang="ar"] .item .details .seasons-category strong {
+        margin-left: 10px;
+    }
+
+    html[lang="ar"] form input:not([type="hidden"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="range"]):not([type="submit"]):not([type="reset"]):not([type="image"]) {
+        padding-right: 20px;
+        text-align: right;
+    }
+
+    html[lang="ar"] .details .action-div .add-to-fav:before {
+        margin-right: 0;
+        margin-left: 4px;
+    }
+
+    html[lang="ar"] .program-info {
+        padding-left: 50px;
+        padding-right: 90px;
+    }
+
+    html[lang="ar"] .year {
+        right: 90px;
+    }
+
+    html[lang="ar"] .close-search {
+        margin-right: 0;
+    }
+
+    html[lang="ar"] .playlist_wrap .popup_close {
+        left: 70px;
+    }
+
+    /* html[lang="ar"] .app_hero_sec .app_img_block {
+        max-width: 51%;
+        margin-left: unset;
+        margin-right: unset;
+    } */
+    html[lang="ar"] .Opinion-Matters .field select {
+        padding-right: 20px;
+    }
+
+    html[lang="ar"] .footer_link> :not(:last-child) {
+        margin-left: 24px;
+        margin-right: 0;
+    }
+    html[lang="ar"] .show_bottom_row .container::before {
+        right: 0;
+        left: unset;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    html[lang="ar"] li.search-icon.show_search_bar {
+        margin-left: 0;
+        /* margin-right: 20px; */
+    }
+
+    html[lang="ar"] .show_search_bar a.search-click {
+        padding-right: 0;
+        /* padding-left: 10px; */
+    }
+
+    /* html[lang="ar"] .search-icon .dropdown-menu {
+        right: auto;
+        left: 0;
+    } */
+}
+
+@media screen and (max-width: 1440px) {
+    html[lang="ar"] .advanced_movie_slider span.new-thumbnails-img-show-btn {
+        left: unset;
+        right: 15px;
+    }
+
+    html[lang="ar"] .advanced_movie_slider .img-wrap>.mute-icon {
+        left: 15px;
+        right: unset;
+    }
+    html[lang="ar"] .announcement_info button.btn {
+        padding: 5px 17px 9px;
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    html[lang="ar"] .header .right-menu>ul>li {
+        padding-right: 10px;
+    }
+
+    /* html[lang="ar"] .search-icon .dropdown-menu {
+        left: -16px;
+    } */
+
+    html[lang="ar"] .search-icon .search-click::before,
+    html[lang="ar"] .user-icon .user-click::before {
+        right: -10px;
+    }
+
+    /* html[lang="ar"] .dropdown-menu {
+        left: -30px;
+    } */
+    /*html[lang="ar"]  .add-fav > .btn,
+    html[lang="ar"] .single-program-player .HeroSlider-info .action-button .btn,
+    html[lang="ar"] .HeroSlider-info .action-button .btn {
+        margin-right: 0;
+        margin-left: 15px;
+    }*/
+
+    html[lang="ar"] .drop-down .selected a span {
+        padding: 6px 20px 6px 70px;
+    }
+
+    html[lang="ar"] .drop-down .selected .select-arrow {
+        left: 20px;
+    }
+
+    html[lang="ar"] .drop-down .selected a span {
+        padding: 6px 10px 6px 30px;
+    }
+
+    html[lang="ar"] .catch-up-episodes .episodes-list>li>a .episodes-name {
+        padding-left: 0;
+        padding-right: 15px;
+    }
+
+    html[lang="ar"] a.full-screen-icon {
+        left: 15px;
+    }
+
+    /* html[lang="ar"] .livestrim-main-video .video {
+        padding-right: 225px;
+    } */
+    html[lang="ar"] .livestrim-main-video .video a.full-screen-icon {
+        right: 225px;
+    }
+
+    html[lang="ar"] .play-episode-seasons-left {
+        padding-left: 30px;
+    }
+
+    html[lang="ar"] .name-of-image-info {
+        padding-right: 30px;
+    }
+
+
+    html[lang="ar"] .details .action-div .add-to-fav:before {
+        margin-right: 0;
+        margin-left: 6px;
+    }
+
+    html[lang="ar"] .seasons-category-listing>ul,
+    html[lang="ar"] .category-listing>ul {
+        height: 45px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    html[lang="ar"] .navbar>ul>li.has-dropdown>a {
+        padding-right: 0;
+        padding-left: 18px;
+    }
+
+    html[lang="ar"] .navbar>ul>li.has-dropdown>a::after {
+        right: auto;
+        left: 4px;
+    }
+
+    html[lang="ar"] .play-episode-box .video-share .add-fav {
+        margin-right: 15px;
+    }
+
+    html[lang="ar"] .play-episode-box .video-share {
+        right: 15px;
+        left: 15px;
+    }
+
+    html[lang="ar"] .play-episode-box .video-share .plus.share {
+        margin-right: 0;
+    }
+
+    html[lang="ar"] .program-info {
+        padding-left: 15px;
+        padding-right: 60px;
+    }
+
+    html[lang="ar"] .program-info .progress-hd>span {
+        margin-left: 5px;
+    }
+
+    html[lang="ar"] .year {
+        right: 60px;
+    }
+
+    html[lang="ar"] .show_info .program-info {
+        padding-left: 0;
+        padding-right: 30px;
+    }
+
+    html[lang="ar"] .show_info .year {
+        right: 30px;
+        left: 0px;
+    }
+
+    html[lang="ar"] .item .details .action-div a {
+        padding-right: 25px;
+    }
+
+    html[lang="ar"] .hero-section .HeroSlider-info .action-button .btn {
+        margin-left: 15px;
+        padding-right: 45px;
+    }
+
+    html[lang="ar"] .HeroSlider-info .action-button a.btn.play.watch-now-btn {
+        margin-left: 15px;
+    }
+
+    html[lang="ar"] .title_box .see-more {
+        left: auto;
+        right: 100%;
+        color: var(--teal);
+    }
+
+    html[lang="ar"] section:not(.related-main-sec) > .container:hover .title_box .title a .see-more{
+        animation: unset;
+    }
+
+    html[lang="ar"] .HeroSlider .item .HeroSlider-info .action-button .close {
+        left: 53px;
+    }
+
+    html[lang="ar"] .simple-user-sec select {
+        background-position: 20px 59%;
+        padding-left: 50px;
+    }
+
+    html[lang="ar"] .Opinion-Matters .field select {
+        padding-left: 50px;
+        background-position: 20px 55%;
+    }
+
+    html[lang="ar"] .podcast_popup .embed_popup_close,
+    html[lang="ar"] .primium_ac .embed_popup_close {
+        left: 15px;
+        right: unset;
+    }
+
+    html[lang="ar"] .has_live_catch_up .catch-up-episodes .drop-down .selected a span {
+        padding: 8px 30px 8px 45px;
+    }
+    html[lang="ar"] .user-form-bake-btn a img {
+        -webkit-transform: rotate(180deg) translateY(-5px);
+        transform: rotate(180deg) translateY(-5px);
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    /* html[lang="ar"] .app_hero_sec .app_img_block {
+        max-width: 42%;
+    } */
+    html[lang="ar"] .navbar>ul>li {
+        margin-left: 5px;
+        margin-right: unset;
+    }
+
+    html[lang="ar"] .podcast-player-progress-audio-block {
+        padding-right: 20px;
+    }
+
+    html[lang="ar"] .catch-up-episodes .drop-down .selected a span {
+        padding: 10px 20px 10px 40px;
+    }
+
+    html[lang="ar"] .catch-up-episodes .drop-down .selected .select-arrow {
+        left: 20px;
+    }
+
+    html[lang="ar"] .catch-up-episodes .catch-up-episodes-select-box {
+        margin-left: 0;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html[lang="ar"] .show_bottom_row .action-button {
+        border-left: 1px solid rgba(255, 255, 255, 0.31);
+        border-right: unset;
+    }
+    html[lang="ar"] .show_bottom_row .category-listing-dropdown {
+        border-left: 1px solid rgba(255, 255, 255, 0.31);
+        border-right: unset;
+    }
+    html[lang="ar"] .close-add-bnt {
+        margin-right: 10px;
+    }
+
+    /* html[lang="ar"] .search-icon .dropdown-menu {
+        left: -5px;
+    } */
+
+    html[lang="ar"] .navbar>ul {
+        left: auto;
+        right: -100%;
+    }
+
+    html[lang="ar"] .show-menu .navbar>ul {
+        left: auto;
+        right: 0;
+    }
+
+    html[lang="ar"] .single-program-player .HeroSlider .HeroSlider-info p {
+        text-align: right;
+    }
+
+    html[lang="ar"] .livestrim-main-video .video {
+        padding-right: 0;
+    }
+
+    html[lang="ar"] .play-episode-external-right {
+        padding-right: 0;
+    }
+
+    html[lang="ar"] .play-episode-seasons-left {
+        padding-left: 0;
+    }
+
+    html[lang="ar"] .name-of-image-info {
+        padding-right: 0px;
+    }
+
+    html[lang="ar"] .item .details {
+        padding-top: 25px;
+    }
+
+    html[lang="ar"] .play-episode-box .video-share {
+        right: 15px;
+        left: 15px;
+    }
+
+    html[lang="ar"] a.audio-share-icon {
+        left: 0;
+    }
+
+    html[lang="ar"] .episodes-name h3 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    html[lang="ar"] .play-episode-box .action-button .icon {
+        margin-right: 0;
+    }
+
+    html[lang="ar"] .play-episode-box .action-button .icon .volume {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    html[lang="ar"] .podcast-player-progress-audio-block {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    html[lang="ar"] .cookies-block p {
+        padding-right: 0;
+        padding-left: 10px;
+    }
+
+    html[lang="ar"] .plus.share.audio-share-icon {
+        right: auto;
+        left: 60px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    html[lang="ar"] .seasons-category-listing>ul li a,
+    html[lang="ar"] .category-listing>ul li a {
+        padding-bottom: 0;
+    }
+
+    html[lang="ar"] .play-episode-seasons-title .add-fav>.btn {
+        margin-right: 0;
+        margin-left: 15px;
+    }
+
+    html[lang="ar"] .play-episode-seasons-title h2 .video-share {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    html[lang="ar"] .year {
+        right: 15px;
+    }
+
+    html[lang="ar"] .program-info {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    html[lang="ar"] .show_info .year {
+        right: 15px;
+    }
+
+    html[lang="ar"] .show_info .program-info h2 {
+        left: 0;
+    }
+
+
+
+    html[lang="ar"] .ramadan_comm_sec .action-button a {
+        margin: 0 5px 10px;
+    }
+
+    html[lang="ar"] .action-button>.icon>.close,
+    html[lang="ar"] .action-button>.icon>a {
+        /* margin: 0 5px 10px; */
+    }
+
+
+    html[lang="ar"] .see-more>span {
+        margin-right: 5px;
+    }
+
+    html[lang="ar"] .close-search {
+        margin-right: 0px;
+    }
+
+    html[lang="ar"] .play-episode-seasons-sec .play-episode-seasons-title .add-fav>.btn {
+        margin-left: 5px;
+    }
+
+    /* html[lang="ar"] .app_hero_sec .app_img_block {
+        max-width: 100%;
+    } */
+    html[lang="ar"] .hero-section .HeroSlider-info .action-button .btn {
+        margin-left: 5px;
+        padding-right: 40px;
+    }
+
+    html[lang="ar"] .mini-hero-sec .HeroSlider .item .HeroSlider-img::before {
+        /* background-image: linear-gradient(to left,transparent 70%,#1f2022); */
+        background-image: linear-gradient(#0000 92%, #1f2022);
+    }
+
+    html[lang="ar"] .mini-hero-sec .HeroSlider .item.hide-caption .HeroSlider-img::before {
+        background-image: linear-gradient(#0000 92%, #1f2022);
+    }
+
+    html[lang="ar"] .catch-up-episodes .catch-up-episodes-select-box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    html[lang="ar"] .fullpage-video ul.social-share,
+    .fullpage-video div.social-share {
+        transform: translateY(0) translateX(50%) scale(0);
+        left: unset;
+        right: 50%;
+    }
+
+    html[lang="ar"] .fullpage-video .share:hover ul.social-share,
+    .fullpage-video .share:hover div.social-share {
+        transform: translateY(0) translateX(50%) scale(1);
+        left: unset;
+        right: 50%;
+    }
+
+    html[lang="ar"] .fullpage-video ul.social-share::before,
+    .fullpage-video div.social-share::before {
+        right: 50%;
+        border-color: transparent transparent transparent #bdbebe;
+        left: unset;
+        transform: translateY(-50%) translateX(50%) rotate(90deg);
+    }
+
+    html[lang="ar"] .fullpage-video .play-episode-box-video-share .video-share>*+* {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    html[lang="ar"] .video-share .plus.share.btn_links {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+
+    html[lang="ar"] .playlist_wrap .popup_close {
+        left: 15px;
+        right: unset;
+    }
+
+    html[lang="ar"] .hero-section .HeroSlider-info .action-button .btn::before,
+    html[lang="ar"] .single-program-player .HeroSlider-info .action-button .btn span {
+        right: 10px;
+    }
+
+    html[lang="ar"] .load_more_popup a.embed_popup_close {
+        left: 15px;
+    }
+
+    html[lang="ar"] .HeroSlider .item .HeroSlider-info .action-button .volume,
+    html[lang="ar"] .HeroSlider .item .HeroSlider-info .action-button .close {
+        right: unset;
+        left: unset;
+        margin: 0 5px;
+    }
+
+    html[lang="ar"] .HeroSlider .item .HeroSlider-info .action-button .close {
+        left: unset;
+        right: unset;
+    }
+
+    html[lang="ar"] .HeroSlider-info .action-button a.btn.play.watch-now-btn {
+        margin-right: 5px;
+    }
+
+    html[lang="ar"] .simple-user-sec select {
+        background-position: 20px 55%;
+    }
+
+    html[lang="ar"] .single-program-player .HeroSlider-info .action-button a.btn.add-to-fav,
+    html[lang="ar"] .single-program-player .HeroSlider-info .action-button a.btn {
+        margin-left: auto;
+    }
+
+    html[lang="ar"] .podcast_popup #recaptcha1 .g-recaptcha>div {
+        transform: scale(0.8) translateX(-38px);
+    }
+
+    /* html[lang="ar"] .sign-in-account-options a i,
+    html[lang="ar"] .g-signin2 .abcRioButtonIcon {
+        margin-left: 8px;
+    } */
+    html[lang="ar"] .checkbox-field .new-to-awaan-link-block p {
+        text-align: right;
+    }
+
+    html[lang="ar"] .has_live_catch_up .catch-up-episodes-select-box .drop-down {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    html[lang="ar"] .has_live_catch_up .catch-up-episodes .drop-down .selected a span {
+        padding: 3px 15px 10px 35px;
+    }
+
+    html[lang="ar"] .landing_header .navbar>ul>li {
+        padding: 8px 22px 8px 0;
+    }
+
+    html[lang="ar"] .footer_link> :not(:last-child) {
+        margin-left: 5px;
+        margin-right: 0;
+    }
+
+    html[lang="ar"] .landing_header .navbar>ul>li::before {
+        right: -11px;
+        left: unset;
+    }
+
+    html[lang="ar"] .apple-google.g_id_signin iframe {
+        left: unset !important;
+        right: 0;
+    }
+
+    html[lang="ar"] .show_bottom_row .drop-down .selected a span {
+        padding: 6px 10px 6px 30px;
+    }
+    html[lang="ar"] .show_bottom_row .category-listing-dropdown .drop-down .selected a i {
+        left: 7px;
+        right: unset;
+    }
+    html[lang="ar"] .app_img_wrap {
+        transform: translateX(-11.3%);
+    }
+}
+
+@media screen and (max-width: 345px) {
+    html[lang="ar"] .action-button .btn_available a span {
+        margin-right: 2px;
+    }
+
+    html[lang="ar"] .timing span {
+        margin-left: 10px;
+    }
+
+    html[lang="ar"] .year {
+        right: 15px;
+    }
+
+    html[lang="ar"] .program-info h2 {
+        right: auto;
+        left: 25px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
+    html[lang="ar"] .add-fav>.btn,
+    html[lang="ar"] .single-program-player .HeroSlider-info .action-button .btn,
+    html[lang="ar"] .HeroSlider-info .action-button .btn {
+        margin-left: 5px;
+    }
+
+    html[lang="ar"] .play-episode-box .video-share .add-fav {
+        margin-right: 10px;
+    }
+
+    html[lang="ar"] .HeroSlider-info .action-button .btn img {
+        margin-right: 5px;
+        margin-left: 0;
+    }
+
+    html[lang="ar"] .hero-section .HeroSlider-info .action-button .btn {
+        padding: 5px 25px 5px 10px;
+    }
+
+    html[lang="ar"] .hero-section .HeroSlider-info .action-button .btn::before,
+    html[lang="ar"] .single-program-player .HeroSlider-info .action-button .btn span {
+        right: 8px;
+    }
+}
